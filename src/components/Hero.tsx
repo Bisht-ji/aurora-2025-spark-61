@@ -74,13 +74,15 @@ const Hero = () => {
             </Card>
           </div>
           
-          {/* Aurora Invitation */}
+          {/* Register Now Button */}
           <div className="flex justify-center">
-            <img 
-              src={fresherInvitation} 
-              alt="ABES invites you to Aurora - Fresher's Party" 
-              className="max-w-md w-full h-auto rounded-lg shadow-2xl aurora-glow hover:scale-105 transition-transform duration-300"
-            />
+            <Button 
+              size="lg"
+              className="text-xl px-12 py-6 h-auto bg-primary hover:bg-primary/90 text-primary-foreground font-bold rounded-full aurora-glow hover:scale-105 transition-all duration-300 shadow-2xl"
+              onClick={() => window.open('https://www.instagram.com/aurora_abes?igsh=OWczbXdwODRndDJ6', '_blank')}
+            >
+              Register Now
+            </Button>
           </div>
         </div>
       </div>
