@@ -48,7 +48,7 @@ const Hero = () => {
                 <Calendar className="w-5 h-5 text-primary" />
                 <div>
                   <p className="text-sm text-muted-foreground">When</p>
-                  <p className="font-semibold">21 Sept - 24 Sept</p>
+                  <p className="font-semibold">Coming Soon</p>
                 </div>
               </div>
             </Card>
